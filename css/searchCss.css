@@ -1,0 +1,116 @@
+*{padding: 0;margin: 0;}
+li{list-style:none;}
+a{text-decoration: none;color: #000000;}
+img,button{border: 0;}
+input,button,select,textarea{ outline:none;}
+ol, ul { list-style: none; }
+input, textarea { 
+  -webkit-font-smoothing: antialiased;
+  -webkit-text-size-adjust: 100%;
+  -ms-text-size-adjust: 100%;
+  outline: none; 
+}
+
+blockquote, q { quotes: none; }
+blockquote:before, blockquote:after, q:before, q:after { content: ''; content: none; }
+table { border-collapse: collapse; border-spacing: 0; }
+img { border: 0; max-width: 100%; }
+#topbar {
+  background: #4f4a41;
+  padding: 10px 0 10px 0;
+  text-align: center;
+}
+
+#topbar a {
+  color: #fff;
+  font-size:1.3em;
+  line-height: 1.25em;
+  text-decoration: none;
+  opacity: 0.5;
+  font-weight: bold;
+}
+
+#topbar a:hover {
+  opacity: 1;
+}
+p,li{cursor: pointer;}
+.search-blu { 
+  display: inline-block;
+  outline: 0;
+  border: 0;
+  width: 103px;
+  height: 50px;
+  color: #fff;
+  text-decoration: none;
+  padding: 12px 26px 12px 26px;
+  text-align: center;
+  cursor: pointer;
+  border-bottom: 1px #fff solid;
+  font-size: 22px;
+  float: left;
+  background-color: #ef2322;
+  margin-top: 11.5px;
+}
+
+#lean_overlay {
+    position: fixed;
+    z-index:100;
+    top: 0px;
+    left: 0px;
+    height:100%;
+    width:100%;
+    background: #000;
+    display: none;
+}
+
+#loginmodal {
+  width: 900px;
+  padding-top: 150px;
+  height: 450px;
+  padding-left: 300px;
+  background: #333;
+  opacity: 0.5 !important;
+}
+
+.txt { 
+  display: block;
+  width: 540px;
+  height: 60px;
+  margin-bottom: 20px;
+  font-family: 'Helvetica Neue', Helvetica, Verdana, sans-serif;
+  color: #ef2322;
+  background: transparent;
+  border-bottom: 1px #fff solid;
+  font-size: 22px;
+  border-left-width:0px; 
+  border-top-width:0px; 
+  float: left;
+  border-right-width:0px;
+}
+.txt:focus {
+  outline: none;
+  color: #525864;
+  border-color: #84c0ee;
+}
+.kayWords{
+  height: 110px;
+  width: 500px;
+}
+.kayWords ul li{
+  float: left;
+  margin-right: 13px;
+  border: 1.5px #ef2322 solid;
+  height: 40px;
+  width: 65px;
+  margin-bottom: 10px;
+}
+.kayWords ul li a{
+  color: #fff;
+  width: 73px;
+  height: 38px;
+  line-height: 38px;
+  text-align: center;
+  display: block;
+}
+
+

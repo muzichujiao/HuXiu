@@ -1,0 +1,85 @@
+
+    html{
+        width: 1500px;
+    }
+    .center{
+       width: 60%;
+        margin:0 auto;
+    }
+    .footer-narrow-center{
+        width: 50%;
+        margin:0 auto;
+    }
+    .center-dif{
+      width: 65%;
+        margin-left: 15%;
+}
+.passage-a{
+    height: 180px;
+}
+.container-div{
+    height: 350px;
+}
+.page-a-width{
+    width: 8%;
+}
+.page-span{
+    width:12%;
+}
+.page-span-narrow
+{
+    width: 2%;
+}
+.right-content-div{
+    padding:20px 10px 2px 10px;
+}
+.footer-right li{
+    width: 20%;
+    margin-right: 30px;
+}
+.footer-right-width{
+    padding-left: 0px;
+}
+.main-subject-left-content ul a
+{
+    margin-left: -5px;
+}
+.image-large-border3{
+    width: 280px;
+}
+.gray{
+    margin: 20PX 10px 0px 20px!important;
+}
+.channel-right-large
+{
+    height:440px;
+}
+.channel-right-small{
+        height: 165px;
+    }
+.main-passage-content a{
+    height: 225px;
+}
+.channel-right-large p{
+    padding-top: 0px;
+    padding-bottom: 30px;
+}
+.clock-span{
+    top:-10;
+}
+.footer-right-wchat
+{
+    filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='images/wchat.png', sizingMethod='scale');
+    -ms-filter:"progid:DXImageTransform.Microsoft.AlphaImageLoader(src='images/wchat.png', sizingMethod='scale')";
+}
+.footer-right-qq
+{
+    filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='images/qq.png', sizingMethod='scale');
+    -ms-filter:"progid:DXImageTransform.Microsoft.AlphaImageLoader(src='images/qq.png', sizingMethod='scale')";
+}
+.footer-right-massage
+{
+    
+    filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='images/massage.png', sizingMethod='scale');
+    -ms-filter:"progid:DXImageTransform.Microsoft.AlphaImageLoader(src='images/massage.png', sizingMethod='scale')";
+}

@@ -1,0 +1,157 @@
+
+html { height: 101%; }
+body { 
+}
+article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section { display: block; }
+ol, ul { list-style: none; }
+
+input, textarea { 
+  -webkit-font-smoothing: antialiased;
+  -webkit-text-size-adjust: 100%;
+  -ms-text-size-adjust: 100%;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  outline: none; 
+}
+
+blockquote, q { quotes: none; }
+blockquote:before, blockquote:after, q:before, q:after { content: ''; content: none; }
+table { border-collapse: collapse; border-spacing: 0; }
+img { border: 0; max-width: 100%; }
+#topbar {
+  background: #4f4a41;
+  padding: 10px 0 10px 0;
+  text-align: center;
+}
+.center{
+  width: 100%;
+}
+#topbar a {
+  color: #fff;
+  font-size:1.3em;
+  line-height: 1.25em;
+  text-decoration: none;
+  opacity: 0.5;
+  font-weight: bold;
+}
+
+#topbar a:hover {
+  opacity: 1;
+}
+
+/** custom login button **/
+.flatbtn-blu { 
+
+  display: inline-block;
+  outline: 0;
+  border: 0;
+  width: 100%;
+ color: #ef2322;
+  text-decoration: none;
+  font-size: 1.3em;
+  font-weight: bold;
+  padding: 12px 26px 12px 26px;
+  line-height: normal;
+  text-align: center;
+  vertical-align: middle;
+  cursor: pointer;
+  background-color: #ffffff;
+
+
+}
+.flatbtn-blu:hover {
+  color: #ffffff;
+  background-color: #ef2322;
+}
+
+
+
+/** modal window styles **/
+#lean_overlay {
+    position: fixed;
+    z-index:100;
+    top: 0px;
+    left: 0px;
+    height:100%;
+    width:100%;
+    background: #000;
+    display: none;
+}
+
+#loginmodal {
+  width: 700px;
+  height: 360px;
+  background: #ffffff;
+  
+  
+}
+
+.txtfield { 
+  display: block;
+  width: 100%;
+  padding: 6px 5px;
+  margin-bottom: 15px;
+  font-family: 'Helvetica Neue', Helvetica, Verdana, sans-serif;
+  color: #b5b5b5;
+  background-color: #fff;
+  border: 1px #b5b5b5 solid;
+}
+.txtfield:focus {
+  outline: none;
+  color: #525864;
+  border-color: #84c0ee;
+}
+.mainLeft{
+  float: left;
+  padding: 30px 30px 0 30px;
+  width: 300px;
+}
+.mainRight{
+  float: right;
+  width: 250px;
+  height: 300px;
+  background-color: #333333;
+  padding: 60px 50px 0 30px;
+}
+.white{
+  color: #fff;
+  height: 46px;
+}
+#Lo{
+  height: 30px;
+}
+#Lo p{cursor: pointer;}
+#Lo span{
+  margin-top: 4px;
+  border: 1.5px #333333 solid;
+  height: 13px;
+  width: 13px;
+  float: left;
+  margin-right: 8px;
+
+}
+
+.mainRight .red{
+  color: #ef2322;
+  height: 42px;
+}
+#remember{
+  float: left;
+}
+#forget{
+  float: right;
+  color:#b5b5b5;
+}
+.mainRight div{
+  height: 50px;
+}
+.mainRight div ul li img{
+  height: 23px;
+  width: auto;
+}
+.mainRight div ul li{
+  float: left;
+  margin-right: 16px;
+}
+

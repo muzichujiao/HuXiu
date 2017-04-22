@@ -1,0 +1,149 @@
+.left-div{
+	position: fixed !important;
+	float: left;
+	top: 40%;
+	left: 6%;
+	margin-top: -285px;
+	background:url(../images/time1.png);
+	width: 200px;
+	height: 700px;
+	background-repeat: no-repeat;
+	background-position:30% 140%;
+	display: block;	
+}
+.left-div-first{
+	float: left;
+	display: block;
+	width: 100%;
+	margin-top: 166px;
+	margin-left: -30px;	
+	text-align: center;
+}
+.left-div-first span{
+		background:url(../images/plane.png);
+		height: 25px;
+		margin-top: 9px;
+		width: 30px;
+		display: inline-block;
+		background-position: 66px 130px;
+}
+.left-div-first:hover span{
+	background: url(../images/timeRed.png) no-repeat;
+    background-position: -1.5px 9px;
+}
+.left-div-second{
+	float: left;
+	display: block;
+	width: 100%;
+	margin-top: 26px;
+	margin-left: 25px;
+	padding-left: 6px;
+}
+.left-div-second span{
+		background:url(../images/plane.png);
+		height: 20px;
+		width: 20px;
+		display: inline-block;
+		background-position: 57px 94px;
+}
+.left-div-second:hover span{
+	background:url(../images/timeRed.png) no-repeat;	
+	background-position: 6px -45px;
+}
+.left-div-third{
+	float: left;
+	display: block;
+	width: 100%;
+	margin-top: 26px;
+	margin-left: 60px;
+	padding-left: 6px;
+}
+.left-div-forth{
+	float: left;
+	display: block;
+	width: 100%;
+	margin-top: 26px;
+	margin-left: 29px;
+	padding-left: 6px;
+
+}
+.left-div-last{
+	float: left;
+	display: block;
+	width: 100%;
+	height: 30px;
+	line-height: 30px;
+	margin-top: 303px;
+	padding-left: 34px;
+}
+
+.left-div-last:hover{
+        color: #ef2322;      
+  }
+
+    .left-div a:hover{color: #ef2322;}
+.pageScroll {
+	position: fixed !important;
+	top: 44%;
+	left: 52%;
+	margin-top: -45px;
+	width: 167px;
+	display: block;
+}
+.pageScroll.left {
+	margin-left: -45%;
+}
+.pageScroll.right {
+	margin-left: 40%;
+}
+.scrollNav a {
+	display: block;
+	color: #333;
+	font-weight: normal;
+	padding-bottom: 26px;
+	height: 20px;
+	line-height: 20px;
+	text-align: right; /* Old browsers */
+}
+.scrollNav {
+	width: 80px;
+}
+.scrollNav_1, .scrollNav_1 a {
+	color:#333333;
+}
+.scrollNav a:hover {
+	color: #ef2322;
+}
+li.scrollNav.active a {
+	color: #ef2322;
+}
+@media  (min-width:980px) and (max-width:1410px) {
+ .centera{
+     width: 830px;
+   }
+ .left-div{
+	left: 0px;
+}
+
+.pageScroll {
+	position: fixed !important;
+	top: 47%;
+	left: 17px;
+}
+.pageScroll.left {
+	margin-left: 0px;
+}
+}
+@media  (min-width:0px) and (max-width:980px) 
+{
+
+ .left-div{
+	display: none!important;
+}
+.pageScroll {
+	display: none!important;
+}
+.pageScroll.left {
+	display: none!important;
+}
+}
